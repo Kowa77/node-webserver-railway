@@ -1,0 +1,17 @@
+{
+  "name": "webserver",
+  "version": "1.0.0",
+  "description": "App WebServer",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Esteban Garriga",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.18.2",
+    "hbs": "^4.2.0"
+  }
+}
